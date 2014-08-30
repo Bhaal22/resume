@@ -1,0 +1,484 @@
+/********************************
++ STYLES GENERIQUES	
+********************************/
+
+body {
+	font-family: Georgia, "Times New Roman", Garamond, serif;
+	background-color: #fff;
+	color: #000;
+	margin: 1% 1%;
+	padding: 0 250px 0 0;
+}
+
+* html body {
+	overflow: hidden;
+}
+
+* html div#main {
+	height: 100%;
+	overflow: auto;
+}
+
+a {
+	text-decoration: none;
+	color: #000;
+}
+
+a:link, a:visited {
+	border-bottom: 1px solid #999;
+	color: #000;
+	background: transparent url(../images/link16.png) no-repeat bottom right;
+	padding-right: 20px;
+	-moz-opacity: .75;
+	opacity: .75;
+}
+
+a:hover {
+	color: #000;
+	border-bottom: 1px solid #666;
+	-moz-opacity: 1;
+	opacity: 1;
+}
+
+acronym {
+	cursor: help;
+	border-bottom: 1px dotted #666;
+}
+
+acronym:hover {
+	border-bottom: 1px dotted #aaa;
+	color: #666;
+}
+
+address {
+	font-style: italic;
+	font-size: .9em;
+	border-left: 10px solid #eee;
+	margin-left: 2.1em;
+	padding: 0 .5em .5em .6em;
+	line-height: 1.8em;
+}
+
+address a:link {
+	background: transparent url(../images/mail16.png) no-repeat bottom right;
+}
+
+div.postit {
+	float: right;
+	width: 20em;
+	background: #ffd;
+	margin: 1em auto;
+	padding: 1em;
+	border: 1px solid #cc6;
+}
+
+div.postit h4 {
+	background: transparent url(../images/postit24.png) no-repeat top right;
+	padding: .5em;
+	margin: 0 0 .5em 0;
+	font-size: 1em;
+	color: #333;
+}
+
+div.postit p {
+	padding-left: 1em;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-variant: small-caps;
+}
+
+img.star_image {
+	width: 40px;
+	height: 12px;
+}
+
+
+p {
+	margin: 5px 0;
+}
+
+/* vCard microformat */
+
+#card {
+	float: left;
+	width: 45%;
+	border: 1px solid #ccc;
+	background: #fbfbfb;
+	padding: .6em;
+	margin-right: 1em;
+}
+
+.vcard .geo, .vcard .photo {
+	display: none;
+}
+
+.adr {
+	border-left: 6px solid #dedede;
+	padding-left: .3em;
+	margin-bottom: .2em;
+	font-style: italic;
+}
+
+.street-address {
+	display: inline;
+}
+
+.when abbr {
+	text-decoration: none;
+	color: black;
+	border: none;
+}
+
+#maplink {
+	background: none;
+	text-decoration: none;
+	border: none;
+}
+
+#map {
+	float: left;
+}
+
+/* stars rating */
+span.s1, span.s2, span.s3 {
+	display: block;
+	float: left;
+	width: 40px;
+	margin-right: .3em;
+	text-indent: -10000px;
+}
+
+span.s1 {
+	background: transparent url(../images/s1.png) no-repeat 0px 3px;
+}
+
+span.s2 {
+	background: transparent url(../images/s2.png) no-repeat 0px 3px;	
+}
+
+span.s3 {
+	background: transparent url(../images/s3.png) no-repeat 0px 3px;
+}
+
+/********************************
++ HEADER												+
+********************************/
+
+#header {
+	padding-bottom: 1em;
+}
+
+#header h1 {
+	font-size: 2em;
+	color: #339;
+	margin: 0;
+	padding: 0;
+}
+
+#header h2 {
+	font-size: .9em;
+	font-weight: normal;
+	margin:	.2em 0 .6em 0;
+	border-top: .3px solid #ccc;
+	padding: .2em 0 0 0;
+	text-align: right;
+	font-variant: small-caps;
+	letter-spacing: .07em;
+	color: #444;
+}
+
+#menu {
+	display: block;
+	float: right;
+}
+
+#menu ul {
+	margin: 40px 0 0 0;
+	padding: 0;
+	list-style-type: none;
+	text-align: right;
+}
+
+#menu a {
+	background: none;
+	padding: 0;
+	font-size: 90%;
+}
+
+/********************************
++ MAIN CONTENT			+
+********************************/
+
+#main {
+	float: left;
+	width: 100%;
+	margin-right: -250px;
+	padding-right: 250px;
+}
+
+#main h2 {
+	font-size: 1.2em;
+}
+
+#main h3 {
+	font-size: 1em;
+}
+
+#main #experience {
+}
+
+/* titres de premier niveau */
+
+#main h2 {
+	color: #225;
+}
+
+#main #experience h2 {
+	background: transparent url(../images/punaise16.png) no-repeat bottom left;
+	padding-left: 28px;
+}
+
+#main #portfolio h2 {
+	background: transparent url(../images/portfolio24.png) no-repeat bottom left;
+	padding-left: 28px; 
+}
+
+#main #formation h2 {
+	background: transparent url(../images/glasses24.png) no-repeat bottom left;
+	padding-left: 28px;
+}
+
+/* titres de second niveau */
+
+#main .category h3 {
+	background: transparent url(../images/ok16.png) no-repeat top left;
+	padding-left: 20px;
+}
+
+#main h3 a, #main h3 span {
+	font-weight: normal;
+	font-size: .9em;
+}
+
+#main h3 a {
+	padding-right: 20px;
+}
+
+#main .category .entry {
+	padding-left: 2em;
+}
+
+#main ul {
+	list-style-image: url(../images/puce.png);
+}
+
+#main ol {
+	list-style-image: none;
+}
+
+#main ul li {
+	padding: 1px;
+	margin-top: .3em;
+}
+
+#main ul li:focus {
+	background-color: #f2f2f2;
+}
+
+#main .entry {
+	border: 1px solid #fff;
+	min-height: 170px;
+	background-color: #fff;
+}
+
+#main .entry:focus {
+	border: 1px solid #ccc;
+	min-height: 170px;
+	background-color: #fafafa;
+}
+
+#main .entry img {
+	float: right;
+	padding: .5em;
+	margin-right: 1em;
+	background: #fff;
+	border: 1px solid #aaa;
+}
+
+#main .entry a.imglink {
+	background-image: none;
+	border: none;
+	padding: 0;
+	margin: 0;
+}
+
+#main .who, #main .when, #main .where, #main .what {
+	margin-left: 1.4em;
+}
+
+#main .who {
+	font-size: .9em;
+	line-height: 1.5em;
+	font-weight: bold;
+	font-variant: small-caps;
+	padding-left: 22px;
+	background: transparent url(../images/who16.png) no-repeat top left;
+}
+
+#main .when {
+	font-size: .9em;
+	line-height: 1.5em;
+	padding-left: 22px;
+	background: transparent url(../images/when16.png) no-repeat top left;
+}
+
+#main .where {
+	font-size: .9em;
+	line-height: 1.5em;
+	padding-left: 22px;
+	background: transparent url(../images/where16.png) no-repeat top left;
+}
+
+/* Special entry for "Formations" */
+
+#main #formation .who {
+	padding-left: 22px;
+	background: transparent url(../images/formation16.png) no-repeat top left;
+}
+
+.inner {
+	padding-right: .8em;
+}
+
+/********************************
++ SIDEBAR						
+********************************/
+
+#sidebar {
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 250px;
+	height: 100%;
+}
+
+@media screen {
+	body>div#left-sidebar {
+		position:fixed;
+	}
+	body>div#right-sidebar{
+		position:fixed;
+	}
+}
+
+#sidebar img.photo {
+	float: right;
+	border: 1px solid #aaa;
+	background: #fff;
+	padding: 8px;
+	margin: 10px 10px 10px .5em; 
+	width: 225px;
+	height: 225px;			 
+}
+
+/* titres de premier niveau */
+
+#sidebar h2 {
+	font-size: 1.2em;
+}
+
+#sidebar #web h3 {
+	background: transparent url(../images/web16.png) no-repeat bottom left;
+	padding-left: 20px;
+}
+
+#sidebar #sql h3 {
+	background: transparent url(../images/sql16.png) no-repeat bottom left;
+	padding-left: 20px;
+}
+
+#sidebar #sys h3 {
+	background: transparent url(../images/os16.png) no-repeat bottom left;
+	padding-left: 20px;
+}
+
+#sidebar #softs h3 {
+	background: transparent url(../images/softs16.png) no-repeat bottom left;
+	padding-left: 20px;
+}
+
+#sidebar #l18n h3 {
+	background: transparent url(../images/lang16.png) no-repeat bottom left;
+	padding-left: 20px;
+}
+
+#sidebar #divers h3 {
+	/*background: transparent url(../images/lang16.png) no-repeat bottom left;*/
+	padding-left: 20px;
+}
+
+/* titres de second niveau */
+
+#sidebar h3 {
+	font-size: 1em;
+}
+
+/* titres de troisi�me niveau */softs-dev16.png
+
+#sidebar h4 {
+	font-size: .9em;
+}
+
+#sidebar #softs .subcategory {
+	padding-left: 1em;
+}
+
+#sidebar #softs #softs-dev h4 {
+	background: transparent url(../images/softs-dev16.png) no-repeat bottom left;
+	font-size: .9em;
+	padding-left: 20px;
+}
+
+#sidebar #softs #softs-design h4 {
+	background: transparent url(../images/softs-design16.png) no-repeat bottom left;
+	font-size: .9em;
+	padding-left: 20px;
+}
+
+#sidebar #softs #softs-office h4 {
+	background: transparent url(../images/softs-office16.png) no-repeat bottom left;
+	font-size: .9em;
+	padding-left: 20px;
+}
+
+/* listes à puces */
+
+#sidebar ul {
+	list-style: none;
+	padding-left: 0;
+	margin-left: 0;
+}
+
+#sidebar li {
+	padding-left: 5px;
+}
+
+#sidebar li:hover {
+	background-color: #f2f2f2;
+}
+
+#sidebar li img {
+	margin-right: .5em;
+}
+
+/********************************
++ FOOTER												+
+********************************/
+
+#footer {
+	clear: both;
+	padding: 1em 0 0 0;
+	font-size: .8em;
+	text-align: center;
+}
