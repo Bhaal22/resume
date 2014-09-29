@@ -171,6 +171,16 @@ span.s3 {
 	font-size: 90%;
 }
 
+#menu #social {
+    margin-top: 10px;
+    float: right;
+}
+
+#menu #social img {
+    height: 32px;
+    width: 32px;
+}
+
 /********************************
 + MAIN CONTENT			+
 ********************************/
