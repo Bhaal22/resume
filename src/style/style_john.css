@@ -3,14 +3,15 @@
 ********************************/
 
 body {
-	font-family: Georgia, "Times New Roman", Garamond, serif;
-	background-color: #fff;
-	color: #000;
-	margin: 1% 1%;
-	padding: 0 250px 0 0;
-       width: 70%;
-       margin-left:auto; 
-       margin-right:auto
+	  font-family: Helvetica Neue,Helvetica,Arial, sans-serif;
+    font-size: 14px;
+	  background-color: #fff;
+	  color: #000;
+	  margin: 1% 1%;
+	  padding: 0 250px 0 0;
+    width: 70%;
+    margin-left:auto; 
+    margin-right:auto
 }
 
 * html body {
@@ -295,18 +296,16 @@ span.s3 {
   clear: both;
 }
 
-
 #main ul {
 	list-style-image: url(../images/puce.png);
 }
 
-#main ol {
-	list-style-image: none;
+#main p li {
+    font-size: small;
 }
 
-#main ul li {
-	padding: 1px;
-	margin-top: .3em;
+#main ol {
+	list-style-image: none;
 }
 
 #main ul li:focus {
@@ -362,15 +361,17 @@ span.s3 {
   width: 45%;
   border: 1px solid #ccc;
   background: #fbfbfb;
-  padding: .6em;
-  margin-right: 1em;
-   margin-bottom: .3em;
+  /*padding: .6em;*/
+  /*margin-right: 1em;*/
+  /*margin-bottom: .3em;*/
 }
 
 #main .technical span
 { 
-  font-size: 1.2em;
-  text-decoration: underline;
+    font-size: 14px;
+    font-weight: bold;
+    text-decoration: underline;
+    padding-left: 5px;
 }
 
 #main .technical li
